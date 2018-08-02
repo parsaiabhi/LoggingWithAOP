@@ -29,7 +29,7 @@ public class LogginAspect {
 				+ " with args "+Arrays.toString(pjp.getArgs()));
 		pjp.proceed();
 		
-		logger.info("entering into class :"+pjp.getSignature().getDeclaringTypeName()+ " executing method :"+pjp.getSignature().getName()+ " with args "+Arrays.toString(pjp.getArgs()));
+		logger.info("exiting from class :"+pjp.getSignature().getDeclaringTypeName()+ " executing method :"+pjp.getSignature().getName()+ " with args "+Arrays.toString(pjp.getArgs()));
 		
 		
 	}
