@@ -12,7 +12,7 @@ public class Test02 {
 
 		/**
 		 * in case if i did not  prepare log4j.properties then 
-		 * i have use to BasicConfigurator.configure() to 
+		 * i have to use BasicConfigurator.configure() to 
 		 * instruct log4j that you have to load basic configuration 
 		 * by using BasicConfigurator.configure
 		 * as there is no log4j.properties available
