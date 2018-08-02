@@ -4,7 +4,7 @@ import java.util.Properties;
 
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Component;
-
+//PropertySource
 @Component
 public class Person {
 
